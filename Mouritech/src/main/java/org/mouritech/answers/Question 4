@@ -1,0 +1,5 @@
+Can we call parent class constructor in sub class constructor i.e constructor chaining by using super keyword?
+
+ Subclass inherits all the members (fields, methods, and nested classes) from its superclass.
+  Constructors are not members, so they are not inherited by subclasses, 
+  but the constructor of the superclass can be invoked from the subclass.

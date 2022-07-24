@@ -1,0 +1,13 @@
+Task 10 -While running script, you have observed "NoSuchElementException". But you have taken
+the correct locator(ID, XPATh or CSS). Still, you are facing the same issue. What might be the reason?
+
+There are some issues that could trigger a "NoSuchElementException" error. The most common (usually
+80% of the occurrences) is a slow webpage. The implicit timeout of the webdriver times out and
+
+Other option is that the element is hidden.
+If that the case, the webdriver is not able to see it and times out with this error.
+
+Another one could be that, if running a page with multiple frames, the focus is located in a frame that has
+no access to the element, thus making it unavailable to the driver.
+
+

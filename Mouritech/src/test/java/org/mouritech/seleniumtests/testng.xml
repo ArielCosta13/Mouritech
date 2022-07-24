@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Wikipedia Test">
+    <test name="Search for Voyager test">
+        <classes>
+            <class name="org.mouritech.seleniumtests.SearchWikipedia" />
+        </classes>
+    </test>
+</suite> <!-- Suite -->

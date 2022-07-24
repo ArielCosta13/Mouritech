@@ -1,0 +1,3 @@
+switchTo()defaultContent():  This method is for switching to and fro in between frames and parent frames.
+                              The focus is shifted to the main page.
+switchTo().parentFrame():  This method is used to switch the control to the parent frame of the current frame.

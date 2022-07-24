@@ -1,0 +1,7 @@
+Task 9 -How to read Excel data through hash map?
+
+1. Open the file in the input stream.
+2. Create the workbook and get the sheet for that Excel.
+3. Declare the HashMap for storing the data from Excel.
+4. Iterate through the Rows to get the Key and value data.
+5. (Optional) Add the data into the HashMap using the put method.
